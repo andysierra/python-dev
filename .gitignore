@@ -1,0 +1,109 @@
+# ===========================
+# Python: bytecode y cachés
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===========================
+# Entornos virtuales
+# ===========================
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.pdm-python
+__pypackages__/
+
+# ===========================
+# Empaquetado y builds
+# ===========================
+build/
+dist/
+*.egg-info/
+*.egg
+.eggs/
+wheels/
+pip-wheel-metadata/
+sdist/
+MANIFEST
+
+# ===========================
+# Tests, cobertura y linters
+# ===========================
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.dmypy.json
+.scannerwork/
+
+# ===========================
+# Jupyter
+# ===========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+.jupyter/
+profile_default/
+ipython_config.py
+
+# ===========================
+# Variables de entorno / secretos
+# ===========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ===========================
+# Bases de datos locales
+# ===========================
+*.sqlite
+*.sqlite3
+*.db
+
+# ===========================
+# Logs
+# ===========================
+logs/
+*.log
+
+# ===========================
+# Editores e IDEs
+# ===========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+.idea/
+*.iml
+*.swp
+*.swo
+
+# ===========================
+# Claude Code (configuración local)
+# ===========================
+**/.claude/settings.local.json
+
+# ===========================
+# Sistema operativo
+# ===========================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.directory
+.Trash-*
